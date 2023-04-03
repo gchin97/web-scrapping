@@ -17,3 +17,4 @@ def print_match(m):
 m = p.match("careless")  # 주어진 문자열이 처음부터 일치하는지 확인
 
 print_match(m)
+print()
