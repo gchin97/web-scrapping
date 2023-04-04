@@ -15,6 +15,13 @@ def print_match(m):
 
 
 m = p.match("careless")  # 주어진 문자열이 처음부터 일치하는지 확인
-
 print_match(m)
 print()
+
+lst = p.findall("good care cafe")
+print(lst)
+
+p = re.compile("원하는 형태")
+m = p.match("비교할 문자열 ")
+m = p.search("비교할 문자열")
+list = p.findall("비교할 문자열")

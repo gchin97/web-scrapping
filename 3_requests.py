@@ -6,4 +6,3 @@ res.raise_for_status()
 #     print("정답입니다")
 # else:
 #     print("문제가 생겼습니다. [에러코드", res.status_code, "]")
-for ofr
