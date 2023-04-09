@@ -18,3 +18,4 @@ df_m.head(3)
 # string -> 숫자로 만들기 : 1,195,951 -> 1195951
 df_m.iloc[0] = df_m.iloc[0].str.replace(',', '').astype(int)
 df_m
+web scrapping
